@@ -13,3 +13,50 @@
 .navBar, header, .projects, .contact, footer {
     border: 1px dashed #000;
 }
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.navBar p {
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.btns button {
+    border-radius: 0px;
+    border: 1px solid;
+    padding: 10px 10px;
+    margin-right: 20px;
+}
